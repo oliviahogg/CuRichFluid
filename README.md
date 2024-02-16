@@ -1,6 +1,6 @@
-# Introduction to our repository
+# Introduction to CuRichFluid
 
-In this repository we present the sulfide saturation, degassing and sulfide resorption code and required 
+In this repository, CuRichFluid, we present the sulfide saturation, degassing and sulfide resorption code and required 
 datafiles for Hogg et al. (2024 – GEOLOGY) ("link to paper"). 
 
 This code integrates several Python3 petrological and thermodynamic packages (PetThermoTools; PySulfSat; Thermobar) 
@@ -9,7 +9,7 @@ pressure have on the timing of sulfide saturation relative to degassing and the 
 The goal is to determine the optimal conditions for generating Cu-rich magmatic fluids.
 
 
-# A breakdown of the files including in CuRichFluid
+# A breakdown of the files included in CuRichFluid
 
 ## PetThermoTools_FC_Modelling.ipynb
 This code performs fractional crystallisation models using RhyoliteMELTS run through PetThermoTools, an open-source Python3 tool for performing phase equilibria calculations using the MELTS. Note, to run this code you will need to have alphaMELTS downloaded locally on your computer. See https://magmasource.caltech.edu/alphamelts/version2.php for how to do this. 
