@@ -17,7 +17,7 @@ This code performs fractional crystallisation models using RhyoliteMELTS run thr
 ## PetThermo_input.csv 
 input file required to run code in PetThermoTools_FC_Modelling.ipynb
 
-## PetThermo_output.csv
+## PetThermo_output.xlsx
 output file from PetThermoTools_FC_Modelling.ipynb that will be loaded in to SulfSat_Degassing_Modelling.ipynb
 
 ## SulfSat_Degassing_Modelling.ipynb
