@@ -18,7 +18,7 @@ This code performs fractional crystallisation models using RhyoliteMELTS run thr
 input file required to run code in PetThermoTools_FC_Modelling.ipynb. It contains columns for major element oxides and H2O. 
 
 ## PetThermo_output.xlsx
-output file from PetThermoTools_FC_Modelling.ipynb that will be loaded in to SulfSat_Degassing_Modelling.ipynb. This contains columns for major element oxides composition of the melt and crystallising phases; the masses of the melt, crystallising phases and fluid exsolved; pressure (bars)' temperature (deg C); logFO2; 
+output file from PetThermoTools_FC_Modelling.ipynb that will be loaded in to SulfSat_Degassing_Modelling.ipynb. This contains columns for major element oxides composition of the melt and crystallising phases, the masses of the melt, crystallising phases and fluid exsolved, pressure (bars), temperature (C) and melt logFO2. 
 
 ## SulfSat_Degassing_Modelling.ipynb
 This code is used to model sulfide saturation and chalcophile element partitioning between the melt-fluid and melt-sulfide reservoirs. We use PySulfSat, an open-source Python3 tool to calculate sulfide and sulfate solubilities of the melt. Volatile-melt and sulfide-melt partitioning of chalcophile elements are then calculated. Concentrations and masses of chalcophile elements and volatiles across the melt-fluid-sulfide reservoirs are calculated.  This code contributes to the data discussed in ‘Results’ and ‘Element ratios record sulfide saturation’ section of our manuscript.
